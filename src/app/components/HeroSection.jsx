@@ -1,7 +1,7 @@
 "use client";
-import React from "react"
-import Image from "next/image"
-import { TypeAnimation } from "react-type-animation"
+import React from "react";
+import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
 export const HeroSection = () => {
@@ -15,15 +15,15 @@ export const HeroSection = () => {
                 className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
             >
                 <h1 className="text-white mb-4 text-4xl sm:text-5lx lg:text-8xl lg:leading-normal font-extrabold">
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-400">Hello, I'm{" "}</span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-400">Hello, Im{" "}</span>
                     <br></br>
                     <TypeAnimation 
                         sequence={[
                             "Caio",
                             1000,
-                            'FullStack Dev',
+                            "FullStack Dev",
                             1000,
-                            'Web Developer',
+                            "Web Developer",
                             1000,
                         ]}
                         wrapper="span"
@@ -32,7 +32,7 @@ export const HeroSection = () => {
                     />
                 </h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                    I'm a developer FullStack, and creator of applications and solutions for my costumers!
+                    Im a developer FullStack, and creator of applications and solutions for my costumers!
                 </p>
                 <div>
                     <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-secondary-400 via-primary-500 to-gray-400 hover:bg-slate-200 text-white">
@@ -49,7 +49,7 @@ export const HeroSection = () => {
                 transition={{ duration: 0.5 }}  
                 className="col-span-4 place-self-center mt-4 lg:mt-0"
             >
-                <div className='rounded-full bg-[#181818] w-[320px] h-[320px] lg:w-[330px] lg:h-[330px] relative'>
+                <div className="rounded-full bg-[#181818] w-[320px] h-[320px] lg:w-[330px] lg:h-[330px] relative">
                 <Image 
                     src="/images/Imagem.png"
                     alt="Hero Image"

@@ -22,7 +22,7 @@ const EmailSection = () => {
         const options = {
           // The method is POST because we are sending data.
           method: "POST",
-          // Tell the server we're sending JSON.
+          // Tell the server were sending JSON.
           headers: {
             "Content-Type": "application/json",
           },
@@ -42,11 +42,11 @@ const EmailSection = () => {
   return <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
         <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-950 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-0 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
         <div className="z-10">
-            <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+            <h5 className="text-xl font-bold text-white my-2">Lets Connect</h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md">
                 {" "}
-                I'm currently looking for new opportunities, my inbox is always open.
-                Whether you have a question or just want to say hi, I'll try my best
+                Im currently looking for new opportunities, my inbox is always open.
+                Whether you have a question or just want to say hi, Ill try my best
                 to get back to you! 
             </p>
             <div className="socials flex flex-row gap-2">
@@ -86,7 +86,7 @@ const EmailSection = () => {
                         name="message"
                         id="message"
                         className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                        placeholder="Let's talk about..."
+                        placeholder="Lets talk about..."
                     />
                 </div>
                 <button 
